@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Segoe UI',Tahoma,verdana,sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image:linear-gradient(0deg,#EC8C49,#f1f1f1,50%);
+}
+.container{
+	position: relative;
+	background-color:rgba(68,152,222); 
+
+}
+.showcase video{
+	width:100%;
+	height: 100%;
+	size: cover;
+	opacity: 0.6;
+}
+.content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top:40%;
+	text-align: center;
+	width: 500px;
+	left:30%;
+	text-shadow: 2px 2px 1px green;
+}
+.content h1{
+	font-size: 20px;
+	color:#fff;
+}
+.content p{
+	font-size: 20px;
+	color:#fff;
+}
+.about{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 15px;
+
+}
+.aboutme,.social,.gallery{
+	text-align: center;
+	text-shadow: 1px 1px 1px black;
+	color:#f1f1f1;
+	margin-top: 20px;
+}
+.aboutme img{
+	border-top: 3px solid red;
+	border-bottom: 3px solid blue;
+	border-right: 3px solid yellow;
+	border-left: 3px solid green;
+	border-radius: 50%;
+	margin-bottom: 15px;
+}
+.about{
+	position: relative;
+	margin-top: 20px;
+}
+
+
+.btn,.btn1{
+	text-decoration: none;
+	background:none;
+	color:#333;
+	font-size: 20px;
+	padding: 0 95px;
+	
+
+}
+#a{
+	color:#E81C7C;
+}
+#b{
+	color: #DA980A;
+}
+#c{
+	color: #780ADA;
+}
+.btn1{
+	color:#E81C7C;
+	font-weight: bold;
+}
+#in{
+	color: #E81C7C;
+	text-decoration: none;
+}
+#in:hover{
+	color: green;
+}
+
+footer{
+	background:black;
+	color:#f1f1f1;
+	font-size: 16px;
+border-top: 2px solid #f1f1f1;
+	padding: 5px;
+
+
+}
+footer h3{
+	font-size: 12px;
+text-align: center;
+font-weight: normal;
+}
+.btn:hover #c{
+	font-weight: bold;
+	font-color: green;
+}
+.btn1:hover{
+	color:green;
+}
+
+.about{
+	margin:0;
+	background-color:#333;
+	position: relative;
+
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr 1fr;
+	grid-gap: 4px;
+	margin-left: 8px;
+	filter: blur(5px);
+	transition: all 0.5s ease-in;
+	
+}
+.aboutme{
+	position: absolute;top: 5%;
+	left:30%;
+	z-index: 2;
+	transition: all 0.5s ease-in;
+transform: scale(0.5);
+
+}
+.grid:hover{
+	filter: blur(0px);
+
+}
+.aboutme:hover{
+	transform: scale(1);
+	}
+	.content a{
+		text-decoration: none;
+		color:orange;
+	}
+	.content a:hover{
+		color:red;
+	}
